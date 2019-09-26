@@ -15,13 +15,13 @@ namespace ReverseString
                     Console.WriteLine("Value can only be from A-Ö");
                 else
                 {
-                    string result = RevereString(value);
+                    string result = ReverseString(value);
                     Console.WriteLine($"REVERS STRING: {result} ");
                 }
             }
         }
 
-        static string RevereString(string value)
+        static string ReverseString(string value)
         {
             string result = string.Join(" ", value
                 .Split(' ')
