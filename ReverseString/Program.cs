@@ -16,7 +16,7 @@ namespace ReverseString
                 else
                 {
                     string result = ReverseString(value);
-                    Console.WriteLine($"REVERS STRING: {result} ");
+                    Console.WriteLine($"REVERSE STRING: {result} ");
                 }
             }
         }
